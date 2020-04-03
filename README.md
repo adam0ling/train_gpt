@@ -1,5 +1,11 @@
 # A simple way to train your own distil-gpt2 model
 
+Associated links:
+
+* Docker: https://docs.docker.com/install/
+* Huggingface: https://huggingface.co/
+* Jupyter Notebook: https://jupyter.org/
+
 All instructions assume you're working from the same directory where your clone of this repo is. Meaning something_something/<repo_name>, which is train_gpt. Hopefully you're on linux.
 
 test_song is just an example I've made with some lyrics generated with train_distil-gpt2.ipynb
