@@ -4,7 +4,7 @@ All instructions assume you're working from the same directory where your clone 
 
 ## build image
 
-$ cd path/to/Dockerfile/directory  # changes directory
+$ cd path/to/Dockerfile/directory  # changes directory \n
 $ docker build -t huggingface_transformers .  # builds your docker image with tag "huggingface_transformers"
 
 ## run jupyter notebook
