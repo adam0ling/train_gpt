@@ -16,6 +16,8 @@ $ chmod +x deeplearning.sh  # makes deeplearning.sh script executable
 
 $ ./deeplearning.sh
 
+If this doesn't work make sure your docker daemon is running ($ dockerd)
+
 now just open your preffered browser and go to http://localhost:8888/
 
 Congrats! You are in!
