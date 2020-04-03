@@ -1,6 +1,6 @@
 # A simple way to train your own distil-gpt2 model
 
-All instructions assume you're working from the same directory where your clone of this repo is. Meaning something_somtheing/<repo_name>, which is train_gpt. Hopegully you're on linux.
+All instructions assume you're working from the same directory where your clone of this repo is. Meaning something_something/<repo_name>, which is train_gpt. Hopefully you're on linux.
 
 ## build image
 
