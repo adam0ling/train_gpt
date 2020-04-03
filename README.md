@@ -1,6 +1,6 @@
 ### Hopefully you're on linux
 
-All instructions assume you're working from the same directory where your clone of this repo is. Meaning something_somtheing/<repo_name>
+All instructions assume you're working from the same directory where your clone of this repo is. Meaning something_somtheing/<repo_name>, which is train_gpt
 
 ## build image
 
@@ -25,8 +25,8 @@ run_language_modelling.py and run_generation.py are the exact same scripts you c
 Here's the link: 
 https://github.com/huggingface/transformers/tree/master/examples
 
-Now you're almost all set. In my example I use song lyrics from: https://www.kaggle.com/mousehead/songlyrics. I suggest you do the same just to see how this works. To download the lyrics head to the link and click donload. Save and extract them in the same folder your dockerfile is.
+Now you're almost all set. In my example I use song lyrics from: https://www.kaggle.com/mousehead/songlyrics. I suggest you do the same just to see how this works. For that reason, here the lyrics are already downloaded and extracted for you. To download other lyrics or text I suggest you search for them in kaggle. Save and extract them in the same folder your dockerfile is. 
 
 After downloading and extracting it check that the folder name is songlyrics or change it in the notebook to correspond to yours.
 
-Now head to the notebook, you're all set here. Go to: http://localhost:8888/ and then to <notebook_name>
+Now head to the notebook, you're all set here. Go to: http://localhost:8888/ and then to train_distil-gpt2.ipynb
